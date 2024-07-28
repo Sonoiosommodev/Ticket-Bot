@@ -13,7 +13,7 @@ intents.voice_states = True
 bot = commands.Bot(command_prefix='?', intents=intents)
 
 # Canale per i log
-log_channel_id = 1264669765360947321  # sostituisci con l'ID del canale dei log
+log_channel_id = id_log # sostituisci con l'ID del canale dei log
 
 # File di log
 log_file = "ticket_logs.txt"
